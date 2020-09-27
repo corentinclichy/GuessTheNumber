@@ -13,6 +13,7 @@ function playGame() {
   addNumberToHistory(userNumber);
   displayHistory();
   document.getElementById("guessNumber").value = "";
+  disabledButton();
 }
 
 function initGame() {
